@@ -13,16 +13,17 @@ npm install --save @groundearth0/auth-utils
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from '@groundearth0/auth-utils'
-import '@groundearth0/auth-utils/dist/index.css'
+import { useInterval } from '@groundearth0/auth-utils'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const MyWidget = () => {
+  userInterval(() => {
+    console.log('Another 5 seconds have passed')
+  }, 5000)
+
+  return null
+} 
 ```
 
 ## License
