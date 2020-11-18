@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { ExampleComponent } from '@jaytula/auth-utils'
-import '@jaytula/auth-utils/dist/index.css'
+import { ExampleComponent } from '@groundearth0/auth-utils'
+import '@groundearth0/auth-utils/dist/index.css'
 
 const App = () => {
   return <ExampleComponent text="Create React Library Example 😄" />

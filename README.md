@@ -1,13 +1,13 @@
-# @jaytula/auth-utils
+# @groundearth0/auth-utils
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@jaytula/auth-utils.svg)](https://www.npmjs.com/package/@jaytula/auth-utils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@groundearth0/auth-utils.svg)](https://www.npmjs.com/package/@groundearth0/auth-utils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @jaytula/auth-utils
+npm install --save @groundearth0/auth-utils
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save @jaytula/auth-utils
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from '@jaytula/auth-utils'
-import '@jaytula/auth-utils/dist/index.css'
+import MyComponent from '@groundearth0/auth-utils'
+import '@groundearth0/auth-utils/dist/index.css'
 
 class Example extends Component {
   render() {
