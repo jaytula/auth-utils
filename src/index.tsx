@@ -5,11 +5,11 @@ interface Props {
   text: string
 }
 
-export const ExampleComponent = ({ text }: Props) => {
+export const ExampleComponent: React.FC<Props> = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
 }
 
-export const useInterval = (callback: Function, timeout: number = 1000) => {
+export const useInterval = (callback: () => void, timeout = 1000): void => {
   useEffect(() => {
     const interval = setInterval(callback, timeout)
     return () => {
