@@ -1,6 +1,6 @@
 {
   "name": "@groundearth0/auth-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "jaytula",
   "license": "MIT",
@@ -62,5 +62,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "dayjs": "^1.9.6"
+  }
 }

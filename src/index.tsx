@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styles from './styles.module.css'
 
 interface Props {
@@ -9,11 +9,4 @@ export const ExampleComponent: React.FC<Props> = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
 }
 
-export const useInterval = (callback: () => void, timeout = 1000): void => {
-  useEffect(() => {
-    const interval = setInterval(callback, timeout)
-    return () => {
-      clearInterval(interval)
-    }
-  })
-}
+export { useInterval } from './utils';
