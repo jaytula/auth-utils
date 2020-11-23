@@ -10,3 +10,4 @@ export const ExampleComponent: React.FC<Props> = ({ text }) => {
 }
 
 export { useInterval } from './utils';
+export { default as RefreshModal} from './components/RefreshModal/RefreshModal';
